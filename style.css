@@ -56,6 +56,8 @@ p:last-of-type {
 
 /* Header */
 .header {
+	position: sticky;
+	top: 0;
 	padding: 0.5rem;
 	background-color: var(--white);
 	box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 10%);
