@@ -9,8 +9,26 @@
 		<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="normalize.css" />
 		<link rel="stylesheet" href="style.css" />
+		<script defer src="script.js"></script>
 	</head>
-	<body>
+	<body class>
+		<header class="header">
+			<button class="menu_button open_button" aria-label="Open Menu" aria-controls="mainNav" aria-expanded="false">
+				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352" /></svg>
+			</button>
+			<nav id="mainNav" class="navigation">
+				<button class="menu_button close_button" aria-label="Close Menu">
+					<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368" /></svg>
+				</button>
+				<ul class="main_menu">
+					<li class="nav_item"><a href="#">Home</a></li>
+					<li class="nav_item"><a href="#">About</a></li>
+					<li class="nav_item"><a href="#">Blog</a></li>
+					<li class="nav_item"><a href="#">Projects</a></li>
+					<li class="nav_item"><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 		<main class="main">
 			<div aria-hidden="true" class="background-image"></div>
 			<section class="section">
