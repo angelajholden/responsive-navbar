@@ -4,7 +4,7 @@
 ![CSS](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![Watch the Build](https://img.shields.io/badge/YouTube-Watch-blue?logo=youtube)](https://www.youtube.com/playlist?list=[playlist_goes_here])
+[![Watch the Build](https://img.shields.io/badge/YouTube-Watch-blue?logo=youtube)](https://angelajholden.github.io/responsive-navbar/)
 
 This is a simple, clean Accessible + Responsive Navbar built with HTML, CSS and vanilla JavaScript.
 
@@ -17,13 +17,13 @@ _This project is part of a free, open-source series focused on helping newer dev
 ## 🔴 YouTube
 
 🎥 **Watch the build in action** on my [YouTube channel](https://www.youtube.com/@angelajholden) — or check out the
-[video](https://www.youtube.com/playlist?list=[YOUR-PLAYLIST-ID]) to follow the full step-by-step process.
+[video](https://www.youtube.com/@angelajholden) to follow the full step-by-step process.
 
 ---
 
 ## 🔗 See the site live
 
--   [Live demo on Github Pages]()
+-   [Live demo on Github Pages](https://angelajholden.github.io/responsive-navbar/)
 
 ---
 
@@ -32,7 +32,7 @@ _This project is part of a free, open-source series focused on helping newer dev
 ### ✅ Git Clone
 
 ```bash
-git clone git@github.com:angelajholden/[your-repo-name].git
+git clone git@github.com:angelajholden/responsive-navbar.git
 ```
 
 ### ✅ Live Server
