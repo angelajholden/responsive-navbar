@@ -19,7 +19,7 @@ function escapeMenu() {
 	document.addEventListener("keydown", (e) => {
 		if (e.key === "Escape" && body.classList.contains("menu_active")) {
 			body.classList.remove("menu_active");
-			open.setAttribute("aria-expaned", "true");
+			open.setAttribute("aria-expaned", "false");
 		}
 	});
 }
