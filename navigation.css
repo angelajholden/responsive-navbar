@@ -1,0 +1,127 @@
+:root {
+	--white: #fff;
+	--lt-gray: #f8f8f8;
+	--gray: #eaeaea;
+	--black: #222;
+	--purple: #6a1685;
+	--pink: #bb4275;
+	--green: #3e7f6d;
+	--mint: #7cc7b0;
+}
+
+/* Nav */
+.navigation {
+	max-width: 75rem;
+	margin: 0 auto;
+}
+
+.main_menu {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.nav_item a {
+	display: block;
+	padding: 0.75rem;
+	font-size: 1.25rem;
+	text-decoration-color: transparent;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 3px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: var(--black);
+	transition: all 300ms ease-in-out;
+}
+
+.nav_item a.active,
+.nav_item a:focus,
+.nav_item a:hover,
+.nav_item a:active {
+	color: var(--pink);
+	text-decoration-color: var(--pink);
+}
+
+.menu_button {
+	display: none;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+svg {
+	display: block;
+	width: 3rem;
+	height: 3rem;
+	stroke: var(--black);
+	transition: stroke 300ms ease-in-out;
+}
+
+@media (max-width: 768px) {
+	.menu_button {
+		display: block;
+		border-radius: 5px;
+		transition: background-color 300ms ease-in-out;
+	}
+
+	.menu_button:focus,
+	.menu_button:hover,
+	.menu_button:active {
+		background-color: var(--pink);
+	}
+
+	.menu_button:focus svg,
+	.menu_button:hover svg,
+	.menu_button:active svg {
+		stroke: var(--white);
+	}
+
+	.close_button {
+		margin: 0.5rem auto 0.5rem 0.5rem;
+	}
+
+	.open_button {
+		margin-left: auto;
+	}
+
+	.menu_active .open_button {
+		visibility: hidden;
+	}
+
+	.navigation {
+		visibility: hidden;
+		position: fixed;
+		top: 0;
+		left: 100%;
+		width: 300px;
+		height: 100vh;
+		box-shadow: none;
+		background-color: var(--white);
+		transform: translateX(0);
+		transition:
+			transform 300ms linear,
+			visibility 300ms linear;
+	}
+
+	.menu_active .navigation {
+		visibility: visible;
+		box-shadow: -1px 0 1px 1px rgba(0, 0, 0, 10%);
+		transform: translateX(-300px);
+	}
+
+	.main_menu {
+		flex-direction: column;
+		border-top: 3px dotted var(--gray);
+	}
+
+	.nav_item {
+		width: 100%;
+		text-align: center;
+		border-bottom: 3px dotted var(--gray);
+	}
+}

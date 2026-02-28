@@ -1,6 +1,6 @@
 # MIT License
 
-## Copyright :copyright: Angela J Holden 2025
+## Copyright :copyright: Angela J Holden 2026
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
